@@ -8,7 +8,7 @@ async function startServer() {
     require("dotenv").config(__dirname + ".env");
 
     const schema = await buildSchema({
-        resolvers: [],
+        resolvers: [UserResolver],
         emitSchemaFile: true,
     });
 
@@ -18,7 +18,7 @@ async function startServer() {
     const MONGO_PASS = process.env.MONGODB_PASS;
 
     Mongoose.connect(
-        `mongodb+srv://${MONGO_USER}:${MONGO_PASS}@cluster0-xv4mh.mongodb.net/test?retryWrites=true&w=majority`,
+        `mongodb+srv://${MONGO_USER}:${MONGO_PASS}@cluster0.dyerbl2.mongodb.net/?retryWrites=true&w=majority`,
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
