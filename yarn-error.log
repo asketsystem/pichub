@@ -1,21 +1,21 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+  C:\Program Files\nodejs\node.exe C:\Users\BTC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
-  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC\AppData\Local\GitHubDesktop\bin;C:\Users\PC\AppData\Roaming\npm
+  C:\Unicon\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\BTC\mongosh\bin;C:\Program Files\nodejs\;C:\Users\BTC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\tools\apache-maven-3.8.4\bin;C:\composer;C:\Program Files\cURL\bin;C:\ProgramData\curl\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\BTC\.cargo\bin;C:\Users\BTC\AppData\Local\Microsoft\WindowsApps;C:\Users\BTC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\BTC\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Program Files\heroku\bin;C:\tools\dart-sdk\bin;C:\Users\BTC\AppData\Roaming\Pub\Cache\bin;C:\Users\BTC\.dotnet\tools;C:\Users\BTC\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;;C:\Users\BTC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0;C:\Users\BTC\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0;C:\Users\BTC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;;C:\php8;C:\Users\BTC\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;;C:\Users\BTC\AppData\Local\Programs\Hyper\resources\bin
 
 Yarn version: 
-  1.22.19
+  1.22.18
 
 Node version: 
-  16.16.0
+  16.10.0
 
 Platform: 
   win32 x64
 
 Trace: 
   Error: read ECONNRESET
-      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
 
 npm manifest: 
   {
