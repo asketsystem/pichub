@@ -2,6 +2,7 @@ import { ApolloServer } from "apollo-server-express";
 import * as Express from "express";
 import "reflect-metadata";
 import { buildSchema } from "type-graphql";
+import { UserResolver } from "./UserService/UserResolver"
 
 import * as Mongoose from "mongoose";
 async function startServer() {
